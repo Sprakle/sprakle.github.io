@@ -1,0 +1,114 @@
+.boxBorder {
+  border: 1px solid #c3b8af;
+  margin-left: -130px;
+  margin-right: -130px;
+  padding: 10px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-radius: 10px;
+  background-color: #eeefe5;
+  top: -100px;
+  position: relative;
+  box-shadow: 1px 1px 2px #632206;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media screen and (min-width: 769px) {
+  .boxBorder {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .column {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #c3b8af;
+  }
+}
+
+.column {
+  text-align: center;
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.skill-icon {
+  height: auto;
+  width: 50px;
+}
+
+.Index-page {
+  overflow: visible;
+}
+
+.banner {
+  width: 100%;
+}
+
+.title {
+  color: #392c1f;
+  font-size: 6vw;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+}
+
+.subtitle {
+  color:#392c1f;
+  font-size: 2vw;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: #82321f;
+  margin: 0 auto;
+}
+
+
+h2 {
+  color:#7f3110;
+  font-size: 2em;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+}
+
+
+h3 {
+  color:#323231;
+  font-size: 1.4em;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  color:#323231;
+  font-size: 1.4em;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 0.2;
+}
+
+
+.centered-column {
+  padding: 50px 50px 50px 50px;
+}
