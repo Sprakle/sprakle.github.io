@@ -7,7 +7,7 @@
   background-color: #eeefe5;
   top: -100px;
   position: relative;
-  box-shadow: 1px 1px 2px #632206;
+  box-shadow: 1px 1px 2px #61616188;
   max-width: 1100px;
   margin: auto;
   display: flex;
@@ -51,7 +51,7 @@
 }
 
 body {
-  background-color: #82321f;
+  background-color: #e4d9b3;
   margin: 0 auto;
 }
 
@@ -75,7 +75,7 @@ h3 {
 }
 
 p {
-  color: #333333;
+  color: #4e4e4e;
   font-size: 1.4em;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 100;
@@ -257,53 +257,64 @@ p {
   transform: scale(0.95);
 }
 
+/*
+ * Project Theme A
+ */
 .aThemeProject {
-  background-color: #727f6a;
+  background-color: #e4c1b3;
 }
 
 .aThemeHeader {
-  color: #34412c;
+  color: #8d523a;
 }
 
 .aThemeButton {
-  color: #34412c;
-  background-color: #9caf8f;
+  color: #8d523a;
+  background-color: #ffede6;
 }
 
 .aThemeButton:hover {
-  background-color: #cbe4ba;
+  background-color: #ffffff;
 }
 
+
+/*
+ * Project Theme B
+ */
 .bThemeProject {
-  background-color: #6c7d7f;
+  background-color: #d7e4b3;
 }
 
 .bThemeHeader {
-  color: #1d3a3d;
+  color: #99b64b;
 }
 
 .bThemeButton {
-  color: #1d3a3d;
-  background-color: #8caaad;
+  color: #99b64b;
+  background-color: #ebf3d5;
 }
 
 .bThemeButton:hover {
-  background-color: #b1d8db;
+  background-color: #ffffff;
 }
 
+
+/*
+ * Project Theme C
+ */
 .cThemeProject {
-  background-color: #a27c6d;
+  background-color: #b3e4d9;
 }
 
 .cThemeHeader {
-  color: #4b2d22;
+  color: #55bba5;
 }
 
 .cThemeButton {
-  color: #4b2d22;
-  background-color: #dda894;
+  color: #55bba5;
+  background-color: #d1f3ec;
 }
 
 .cThemeButton:hover {
-  background-color: #ecd3c9;
+  background-color: #ffffff;
 }
