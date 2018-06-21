@@ -10,7 +10,6 @@
   box-shadow: 1px 1px 2px #632206;
   max-width: 1100px;
   margin: auto;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -30,31 +29,28 @@
     width: 100%;
     height: 10%;
   }
-
-  .column.aTop{
+  .column.aTop {
     order: 0;
   }
-  .column.aBottom{
+  .column.aBottom {
     order: 1;
     border-bottom: 1px solid #c3b8af;
     padding-bottom: 50px;
   }
-
-  .column.bTop{
+  .column.bTop {
     padding-top: 50px;
     order: 2;
   }
-  .column.bBottom{
+  .column.bBottom {
     order: 3;
     border-bottom: 1px solid #c3b8af;
     padding-bottom: 50px;
   }
-
-  .column.cTop{
+  .column.cTop {
     padding-top: 50px;
     order: 4;
   }
-  .column.cBottom{
+  .column.cBottom {
     order: 5;
   }
 }
@@ -108,7 +104,7 @@ h3 {
 }
 
 p {
-  color: #323231;
+  color: #333333;
   font-size: 1.4em;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 100;
@@ -131,4 +127,100 @@ p {
 
 .centered-column {
   padding: 50px 50px 50px 50px;
+}
+
+.projects {
+  margin: 0 auto;
+}
+
+.project {
+  width: calc(100%);
+  height: calc((100vw) * 0.301);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+}
+
+.project div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectImage {
+  width: 90%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px #1105006e;
+}
+
+.projectDetails {
+  max-width: 70%;
+  min-width: 70%;
+  padding: 0px;
+}
+
+.projectButton {
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4em;
+  margin: 4px 2px;
+  border-radius: 40px;
+
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.projectButton:active {
+  transform: scale(0.95);
+}
+
+.aThemeProject {
+  background-color:#727f6a;
+}
+.aThemeHeader {
+  color:#34412c;
+}
+.aThemeButton {
+  color: #34412c;
+  background-color: #9caf8f;
+}
+.aThemeButton:hover {
+  background-color: #cbe4ba;
+}
+
+.bThemeProject {
+  background-color:#6c7d7f;
+}
+.bThemeHeader {
+  color: #1d3a3d;
+}
+.bThemeButton {
+  color: #1d3a3d;
+  background-color: #8caaad;
+}
+.bThemeButton:hover {
+  background-color: #b1d8db;
+}
+
+.cThemeProject {
+  background-color:#a27c6d;
+}
+.cThemeHeader {
+  color:#4b2d22;
+}
+.cThemeButton {
+  color: #4b2d22;
+  background-color: #dda894;
+}
+.cThemeButton:hover {
+  background-color: #ecd3c9;
 }
