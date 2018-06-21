@@ -8,7 +8,7 @@
   top: -100px;
   position: relative;
   box-shadow: 1px 1px 2px #61616188;
-  max-width: 1100px;
+  max-width: 1300px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -155,7 +155,7 @@ p {
 
 .project {
   width: calc(100%);
-  height: calc((100vw) * 0.301);
+  height: calc((100vw) * 0.3177);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -173,7 +173,7 @@ p {
 }
 
 .projectImage {
-  width: 90%;
+  width: 80%;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -219,8 +219,8 @@ p {
     flex-direction: column;
     height: auto;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .project div {
     width: auto;
