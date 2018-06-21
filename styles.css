@@ -17,14 +17,14 @@
   margin: auto;
 }
 
-@media screen and (min-width: 1000px) {
+@media (min-width: 1000px) {
   .boxBorder div {
     width: 25%;
     height: 30%;
   }
 }
 
-@media screen and (max-width: 999px) {
+@media (max-width: 999px) {
   .boxBorder div {
     width: 100%;
     height: 10%;
@@ -170,7 +170,7 @@ p {
  * Let project descriptions take up the full width of their container
  */
 
-@media screen and (max-width: 1575px) {
+@media (max-width: 1575px) {
   .projectDetails {
     max-width: 90%;
     min-width: 90%;
@@ -181,7 +181,7 @@ p {
  * Extend the height of projects - sadly it breaks those nicely placed borders
  */
 
-@media screen and (max-width: 1275px) {
+@media (max-width: 1275px) {
   .project {
     height: calc((100vw) * 0.4);
   }
@@ -193,7 +193,7 @@ p {
 /*
  * Stack projects vertically instead of staggered layout
  */
-@media screen and (max-width: 999px) {
+@media (max-width: 999px) {
   .project {
     flex-direction: column;
     height: auto;
