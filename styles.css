@@ -163,7 +163,62 @@ p {
 .projectDetails {
   max-width: 70%;
   min-width: 70%;
-  padding: 0px;
+  line-height: 0;
+}
+
+/*
+ * Let project descriptions take up the full width of their container
+ */
+
+@media screen and (max-width: 1575px) {
+  .projectDetails {
+    max-width: 90%;
+    min-width: 90%;
+  }
+}
+
+/*
+ * Extend the height of projects - sadly it breaks those nicely placed borders
+ */
+
+@media screen and (max-width: 1275px) {
+  .project {
+    height: calc((100vw) * 0.4);
+  }
+  .projectDetails {
+    font-size: 0.9em;
+  }
+}
+
+/*
+ * Stack projects vertically instead of staggered layout
+ */
+@media screen and (max-width: 999px) {
+  .project {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .project div {
+    width: auto;
+  }
+  .projectImage {
+    margin-bottom: 50px;
+  }
+  .projectDetails {
+    max-width: 70%;
+    min-width: 70%;
+  }
+
+  /* Swap positions of inverted staggered flexbox elements when in column view */
+  .invertedStackA {
+    order: 1;
+  }
+  .invertedStackB {
+    order: 0;
+  }
 }
 
 .projectButton {
@@ -173,54 +228,62 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 1.4em;
-  margin: 4px 2px;
   border-radius: 40px;
-
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
+
 .projectButton:active {
   transform: scale(0.95);
 }
 
 .aThemeProject {
-  background-color:#727f6a;
+  background-color: #727f6a;
 }
+
 .aThemeHeader {
-  color:#34412c;
+  color: #34412c;
 }
+
 .aThemeButton {
   color: #34412c;
   background-color: #9caf8f;
 }
+
 .aThemeButton:hover {
   background-color: #cbe4ba;
 }
 
 .bThemeProject {
-  background-color:#6c7d7f;
+  background-color: #6c7d7f;
 }
+
 .bThemeHeader {
   color: #1d3a3d;
 }
+
 .bThemeButton {
   color: #1d3a3d;
   background-color: #8caaad;
 }
+
 .bThemeButton:hover {
   background-color: #b1d8db;
 }
 
 .cThemeProject {
-  background-color:#a27c6d;
+  background-color: #a27c6d;
 }
+
 .cThemeHeader {
-  color:#4b2d22;
+  color: #4b2d22;
 }
+
 .cThemeButton {
   color: #4b2d22;
   background-color: #dda894;
 }
+
 .cThemeButton:hover {
   background-color: #ecd3c9;
 }
