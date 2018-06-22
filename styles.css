@@ -261,16 +261,16 @@ p {
  * Project Theme A
  */
 .aThemeProject {
-  background-color: #e4c1b3;
+  background-color: #eedad3;
 }
 
 .aThemeHeader {
-  color: #8d523a;
+  color: #c7795c;
 }
 
 .aThemeButton {
-  color: #8d523a;
-  background-color: #ffede6;
+  color: #c7795c;
+  background-color: #fdeee8;
 }
 
 .aThemeButton:hover {
@@ -282,16 +282,16 @@ p {
  * Project Theme B
  */
 .bThemeProject {
-  background-color: #d7e4b3;
+  background-color: #d7e8ee;
 }
 
 .bThemeHeader {
-  color: #99b64b;
+  color: #52a8c5;
 }
 
 .bThemeButton {
-  color: #99b64b;
-  background-color: #ebf3d5;
+  color: #52a8c5;
+  background-color: #e6f8ff;
 }
 
 .bThemeButton:hover {
