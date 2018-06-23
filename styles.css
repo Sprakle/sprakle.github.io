@@ -210,12 +210,9 @@ p {
   -moz-border-radius: 10px;
   border-radius: 10px;
   box-shadow: 1px 1px 2px #1105006e;
-
   max-width: 40%;
   min-width: 40%;
-
-  position:absolute;
-
+  position: absolute;
   -webkit-transition: opacity 0.25s ease-in-out;
   -moz-transition: opacity 0.25s ease-in-out;
   -o-transition: opacity 0.25s ease-in-out;
@@ -269,6 +266,15 @@ p {
   }
   .projectImage {
     margin-bottom: 50px;
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .projectImage.bottom {
+    display: none;
+  }
+  .projectItem:hover .projectImage.top {
+    opacity: 1;
   }
   .projectDetails {
     max-width: 70%;
