@@ -318,16 +318,16 @@ p {
  */
 
 .aThemeProject {
-  background-color: #eedad3;
+  background-color: #eed9d3;
 }
 
 .aThemeHeader {
-  color: #c7795c;
+  color: #ce775f;
 }
 
 .aThemeButton {
-  color: #c7795c;
-  background-color: #fdeee8;
+  color: #ce775f;
+  background-color: #fcece7;
 }
 
 .aThemeButton:hover {
@@ -339,16 +339,16 @@ p {
  */
 
 .bThemeProject {
-  background-color: #d7e8ee;
+  background-color: #eee8d7;
 }
 
 .bThemeHeader {
-  color: #52a8c5;
+  color: #c29450;
 }
 
 .bThemeButton {
-  color: #52a8c5;
-  background-color: #e6f8ff;
+  color: #c29450;
+  background-color: #fcf7e9;
 }
 
 .bThemeButton:hover {
