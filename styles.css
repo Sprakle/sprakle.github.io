@@ -171,10 +171,13 @@ p {
   align-items: center;
 }
 
-
 .projectImageWrapper {
   min-width: 80%;
   max-width: 80%;
+}
+
+.projectItem:hover .projectImage.top {
+  opacity: 0;
 }
 
 .playButtonLink {
@@ -208,8 +211,15 @@ p {
   border-radius: 10px;
   box-shadow: 1px 1px 2px #1105006e;
 
-  max-width: 100%;
-  min-width: 100%;
+  max-width: 40%;
+  min-width: 40%;
+
+  position:absolute;
+
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
 }
 
 .projectDetails {
@@ -271,7 +281,6 @@ p {
   .invertedStackB {
     order: 0;
   }
-
   .playButtonLink {
     position: absolute;
     min-width: 18%;
@@ -289,7 +298,6 @@ p {
   border-radius: 40px;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.1s;
-
   font-family: 'Archivo', sans-serif;
   font-weight: 200;
   line-height: 1.6;
