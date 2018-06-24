@@ -1,3 +1,20 @@
+.contactLink {
+  position: fixed;
+  z-index: 1000;
+  top: 16px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.altButton {
+  color: #ce775f;
+  background-color: #ffffff;
+}
+
+.altButton:hover {
+  background-color: #ffffff;
+}
+
 .boxBorder {
   border: 1px solid #c3b8af;
   padding: 30px;
@@ -292,6 +309,9 @@ p {
     min-width: 18%;
     max-width: 18%;
   }
+  .contactLink {
+    font-size: 10px;
+  }
 }
 
 .projectButton {
@@ -373,5 +393,35 @@ p {
 }
 
 .cThemeButton:hover {
+  background-color: #ffffff;
+}
+
+.contactColumn {
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 1300px;
+  text-align: center;
+}
+
+.contactElement {
+  margin-bottom: 20px;
+}
+
+.inline-left {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.inline-right {
+  display: inline-block;
+}
+
+.contactButton {
+  background-color: #f8f2da;
+  color: #323231;
+}
+
+.contactButton:hover {
   background-color: #ffffff;
 }
